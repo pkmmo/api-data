@@ -219,93 +219,6 @@
                         "dream_world"
                     ],
                     "type": "object"
-                },
-                "versions": {
-                    "properties": {
-                        "generation-i": {
-                            "properties": {
-                                "red-blue": {
-                                    "properties": {
-                                        "back_default": {
-                                            "type": [
-                                                "null",
-                                                "string"
-                                            ]
-                                        },
-                                        "back_gray": {
-                                            "type": [
-                                                "null",
-                                                "string"
-                                            ]
-                                        },
-                                        "front_default": {
-                                            "type": [
-                                                "null",
-                                                "string"
-                                            ]
-                                        },
-                                        "front_gray": {
-                                            "type": [
-                                                "null",
-                                                "string"
-                                            ]
-                                        }
-                                    },
-                                    "required": [
-                                        "back_default",
-                                        "back_gray",
-                                        "front_default",
-                                        "front_gray"
-                                    ],
-                                    "type": "object"
-                                },
-                                "yellow": {
-                                    "properties": {
-                                        "back_default": {
-                                            "type": [
-                                                "null",
-                                                "string"
-                                            ]
-                                        },
-                                        "back_gray": {
-                                            "type": [
-                                                "null",
-                                                "string"
-                                            ]
-                                        },
-                                        "front_default": {
-                                            "type": [
-                                                "null",
-                                                "string"
-                                            ]
-                                        },
-                                        "front_gray": {
-                                            "type": [
-                                                "null",
-                                                "string"
-                                            ]
-                                        }
-                                    },
-                                    "required": [
-                                        "back_default",
-                                        "back_gray",
-                                        "front_default",
-                                        "front_gray"
-                                    ],
-                                    "type": "object"
-                                }
-                            },
-                            "required": [
-                                "red-blue",
-                                "yellow"
-                            ],
-                            "type": "object"
-                        }
-                    },
-                    "required": [
-                        "generation-i"
-                    ],
-                    "type": "object"
                 }
             },
             "required": [
@@ -317,8 +230,7 @@
                 "front_female",
                 "front_shiny",
                 "front_shiny_female",
-                "other",
-                "versions"
+                "other"
             ],
             "type": "object"
         },
